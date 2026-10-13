@@ -27,6 +27,4 @@ public class Sample31Controller {
     return "sample31.html";
   }
 
-
-
 }
