@@ -27,6 +27,12 @@ public class Sample31Controller {
     return "sample31.html";
   }
 
+  // ユーザ名とロール名はsample33.html側でthymeleaf-extras-springsecurityを使って取得する
+  @GetMapping("step3")
+  public String sample33() {
+    return "sample33.html";
+  }
+
   /**
    *
    * @param model Thymeleafにわたすデータを保持するオブジェクト
